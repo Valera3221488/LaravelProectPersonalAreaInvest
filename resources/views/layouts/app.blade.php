@@ -21,6 +21,7 @@
     @yield('YourDepositsPageStyles')
     @yield('YourWithdrawsPageStyles')
     @yield('EarnHistoryPageStyles')
+    @yield('YourRefferalsPageStyles')
 </head>
 <body style="background: url('/images/cab-bg.jpg') /* Цвет фона */">
 

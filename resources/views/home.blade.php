@@ -41,7 +41,7 @@
                     <tbody id="TBODY_2">
                     <tr id="TR_3">
                         <td id="TD_4">
-                            Earned Total:
+                            Заработано всего:
                         </td>
                         <td id="TD_5">
                             USD 0
@@ -49,7 +49,7 @@
                     </tr>
                     <tr id="TR_6">
                         <td id="TD_7">
-                            Pending Withdrawal:
+                            Ожидающий вывод:
                         </td>
                         <td id="TD_8">
                             USD 0
@@ -57,7 +57,7 @@
                     </tr>
                     <tr id="TR_9">
                         <td id="TD_10">
-                            Withdrew Total:
+                            Снято Всего:
                         </td>
                         <td id="TD_11">
                             USD 0

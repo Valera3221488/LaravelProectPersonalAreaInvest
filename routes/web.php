@@ -23,9 +23,12 @@
 
     Route::get('/edit','EditAccountController@index');
 
+
+
     Route::get('/YourDeposits','DepositController@show');
     Route::get('/YourWithdraws','WithdrawController@show');
     Route::get('/allhistory','EarningHistoryController@show');
+    Route::get('/YourRefferals','RefferalsController@show');
 
     Route::post('/webmoney/result', 'WebMoneyMerchantController@payOrderFromGate');
     Route::get('/webmoney/result',  'WebMoneyMerchantController@payOrderFromGateOK');

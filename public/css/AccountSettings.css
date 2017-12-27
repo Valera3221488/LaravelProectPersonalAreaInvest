@@ -1,0 +1,393 @@
+#DIV_1 {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 247px;
+    max-height: 999999px;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    width: 1170px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 585px 123.5px;
+    transform-origin: 585px 123.5px;
+    caret-color: rgb(51, 51, 51);
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    margin: 0px -15px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#DIV_1*/
+
+#DIV_1:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(51, 51, 51);
+    content: '"' '"';
+    display: table;
+    height: 0px;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    width: 0px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(51, 51, 51);
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#DIV_1:after*/
+
+#DIV_1:before {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    content: '"' '"';
+    display: table;
+    height: 0px;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    width: 0px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(51, 51, 51);
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#DIV_1:before*/
+
+#DIV_2, #DIV_12, #DIV_28 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 247px;
+    left: 0px;
+    max-height: 999999px;
+    min-height: 1px;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 390px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 195px 123.5px;
+    transform-origin: 195px 123.5px;
+    caret-color: rgb(51, 51, 51);
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 0px 15px;
+}/*#DIV_2, #DIV_12, #DIV_28*/
+
+#DIV_3 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 232px;
+    left: 0px;
+    max-height: 999999px;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 360px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 180px 116px;
+    transform-origin: 180px 116px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("https://bitcy.biz/img/user-navigation-bg.png") repeat-x scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    margin: 0px 0px 15px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_3*/
+
+#DIV_3:before {
+    background-position: 50% 0%;
+    bottom: 40px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    content: '""';
+    display: block;
+    height: 90px;
+    left: 267px;
+    position: absolute;
+    right: 20px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 102px;
+    width: 73px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 36.5px 45px;
+    transform-origin: 36.5px 45px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("https://bitcy.biz/img/user-navigation-1.png") no-repeat scroll 50% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_3:before*/
+
+#H2_4, #H2_14, #H2_30 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 44px;
+    max-height: 999999px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 360px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 180px 22px;
+    transform-origin: 180px 22px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 44px Roboto, sans-serif;
+    margin: 0px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#H2_4, #H2_14, #H2_30*/
+
+#UL_5 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 92px;
+    max-height: 999999px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 360px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 180px 46px;
+    transform-origin: 180px 46px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 17px 0px 0px;
+}/*#UL_5*/
+
+#LI_6, #LI_8, #LI_10, #LI_16, #LI_18, #LI_20, #LI_22, #LI_24, #LI_26, #LI_32, #LI_34, #LI_36, #LI_38 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 25px;
+    max-height: 999999px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 360px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 180px 12.5px;
+    transform-origin: 180px 12.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#LI_6, #LI_8, #LI_10, #LI_16, #LI_18, #LI_20, #LI_22, #LI_24, #LI_26, #LI_32, #LI_34, #LI_36, #LI_38*/
+
+#A_7, #A_9, #A_17, #A_21, #A_25, #A_33, #A_37 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 25px;
+    max-height: 999999px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 170px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 85px 12.5px;
+    transform-origin: 85px 12.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 25px Roboto;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 0px 0px 18px;
+}/*#A_7, #A_9, #A_17, #A_21, #A_25, #A_33, #A_37*/
+
+#A_11, #A_19, #A_27, #A_35 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 25px;
+    max-height: 999999px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 170px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 85px 12.5px;
+    transform-origin: 85px 12.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 25px Roboto;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 0px 0px 18px;
+}/*#A_11, #A_19, #A_27, #A_35*/
+
+#DIV_13 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 232px;
+    left: 0px;
+    max-height: 999999px;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 360px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 180px 116px;
+    transform-origin: 180px 116px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("https://bitcy.biz/img/user-navigation-bg.png") repeat-x scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    margin: 0px 0px 15px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_13*/
+
+#DIV_13:before {
+    background-position: 50% 0%;
+    bottom: 40px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    content: '""';
+    display: block;
+    height: 87px;
+    left: 248px;
+    position: absolute;
+    right: 20px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 105px;
+    width: 92px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 46px 43.5px;
+    transform-origin: 46px 43.5px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("https://bitcy.biz/img/user-navigation-2.png") no-repeat scroll 50% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_13:before*/
+
+#UL_15 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 167px;
+    max-height: 999999px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 360px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 180px 83.5px;
+    transform-origin: 180px 83.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 17px 0px 0px;
+}/*#UL_15*/
+
+#A_23, #A_39 {
+
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 25px;
+    max-height: 999999px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 170px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 85px 12.5px;
+    transform-origin: 85px 12.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 25px Roboto;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 0px 0px 10px;
+}/*#A_23, #A_39*/
+
+#DIV_29 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 232px;
+    left: 0px;
+    max-height: 999999px;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 360px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 180px 116px;
+    transform-origin: 180px 116px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("https://bitcy.biz/img/user-navigation-bg.png") repeat-x scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    margin: 0px 0px 15px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_29*/
+
+#DIV_29:before {
+    background-position: 50% 0%;
+    bottom: 40px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    content: '""';
+    display: block;
+    height: 89px;
+    left: 251px;
+    position: absolute;
+    right: 20px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 103px;
+    width: 89px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 44.5px 44.5px;
+    transform-origin: 44.5px 44.5px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("https://bitcy.biz/img/user-navigation-3.png") no-repeat scroll 50% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_29:before*/
+
+#UL_31 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 117px;
+    max-height: 999999px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 360px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 180px 58.5px;
+    transform-origin: 180px 58.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 18px Roboto, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 17px 0px 0px;
+}/*#UL_31*/
+
+

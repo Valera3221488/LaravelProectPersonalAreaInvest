@@ -29,6 +29,7 @@
     Route::get('/YourWithdraws','WithdrawController@show');
     Route::get('/allhistory','EarningHistoryController@show');
     Route::get('/YourRefferals','RefferalsController@show');
+    Route::get('/HistoryOfYourDeposits','DepositController@history');
 
     Route::post('/webmoney/result', 'WebMoneyMerchantController@payOrderFromGate');
     Route::get('/webmoney/result',  'WebMoneyMerchantController@payOrderFromGateOK');

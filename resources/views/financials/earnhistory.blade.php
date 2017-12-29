@@ -337,29 +337,51 @@
                 </table>
             </div>
         </form>
-        <div id="DIV_121" style="overflow:  hidden;
-    margin-left: -15px;">
-            <table id="TABLE_122">
-                <tbody id="TBODY_123">
-                <tr id="TR_124">
-                    <td id="TD_125">
-                        Type
-                    </td>
-                    <td id="TD_126">
-                        Amount
-                    </td>
-                    <td id="TD_127">
-                        Date
-                    </td>
-                </tr>
-                <tr id="TR_128">
-                    <td colspan="3" id="TD_129">
-                        No transactions found
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+        <table class="table">
+            <thead class="thead-inverse">
+            <tr>
+                <th>#</th>
+                <th>Type</th>
+                <th>Amount</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            @if(count(Auth::user()->deposits))
+                @foreach(Auth::user()->deposits as $deposit)
+                    @if($deposit->deposit_status==1)
+                        <tr>
+                            <th scope="row">{{$deposit->id}}</th>
+                            <td>Депозит/{{$deposit->deposit_type}}</td>
+                            <td>{{$deposit->amount}}&nbsp;USD</td>
+                            <td>{{$deposit->created_at->toFormattedDateString()}}</td>
+
+                        </tr>
+
+
+                    @endif
+                @endforeach
+            @else <th scope="row"> No transactions founded</th>
+            @endif
+            </tbody>
+            <tbody>
+            @if(count(Auth::user()->withdrawals))
+                @foreach(Auth::user()->withdrawals as $withdraw)
+                    <tr>
+                        <th scope="row">{{$withdraw->id}}</th>
+                        <td>Выплата/{{$withdraw->withdraw_type}}</td>
+                        <td>{{$withdraw->amount}}&nbsp;USD</td>
+                        <td>{{$withdraw->created_at->toFormattedDateString()}}</td>
+
+                    </tr>
+
+
+
+                @endforeach
+            @else <th scope="row"> No transactions founded</th>
+            @endif
+            </tbody>
+        </table>
 
     </div>
 </div>

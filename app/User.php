@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Notifications\Notifiable;
+use App\Deposit;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
@@ -26,4 +27,16 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function deposits()
+    {
+
+        return $this->hasMany(Deposit::class);
+    }
+
+    public function withdrawals()
+    {
+
+        return $this->hasMany(Withdraw::class);
+    }
 }

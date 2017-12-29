@@ -1,5 +1,5 @@
-@extends('layouts.app')
-@section('YourWithdrawsPageStyles')
+@extends('layouts.app');
+@section('HistoryOfYourDeposits')
     <link href="{{('/css/EarnHistoryStyles.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -8,7 +8,7 @@
     <div id="DIV_1" style="margin:0px 111px 30px;">
         <div id="DIV_2">
             <div id="DIV_3">
-                <i id="I_4"></i>Withdrawals History
+                <i id="I_4"></i>Deposits History
             </div>
             <div id="DIV_5">
                 Welcome, <span id="SPAN_6">{{ Auth::user()->name }}</span>!
@@ -26,148 +26,148 @@
 
                                 <td id="TD_21">
                                     <div style="margin: 0px 313px 0px 0px;">
-                                    <span id="SPAN_22">From:</span>
-                                    <select name="month_from" id="SELECT_23">
+                                        <span id="SPAN_22">From:</span>
+                                        <select name="month_from" id="SELECT_23">
 
-                                        <option value="1" id="OPTION_24">
-                                            Jan
-                                        </option>
-                                        <option value="2" id="OPTION_25">
-                                            Feb
-                                        </option>
-                                        <option value="3" id="OPTION_26">
-                                            Mar
-                                        </option>
-                                        <option value="4" id="OPTION_27">
-                                            Apr
-                                        </option>
-                                        <option value="5" id="OPTION_28">
-                                            May
-                                        </option>
-                                        <option value="6" id="OPTION_29">
-                                            Jun
-                                        </option>
-                                        <option value="7" id="OPTION_30">
-                                            Jul
-                                        </option>
-                                        <option value="8" id="OPTION_31">
-                                            Aug
-                                        </option>
-                                        <option value="9" id="OPTION_32">
-                                            Sep
-                                        </option>
-                                        <option value="10" id="OPTION_33">
-                                            Oct
-                                        </option>
-                                        <option value="11" id="OPTION_34">
-                                            Nov
-                                        </option>
-                                        <option value="12" id="OPTION_35">
-                                            Dec
-                                        </option>
-                                    </select>
-                                    <select name="day_from" id="SELECT_36">
+                                            <option value="1" id="OPTION_24">
+                                                Jan
+                                            </option>
+                                            <option value="2" id="OPTION_25">
+                                                Feb
+                                            </option>
+                                            <option value="3" id="OPTION_26">
+                                                Mar
+                                            </option>
+                                            <option value="4" id="OPTION_27">
+                                                Apr
+                                            </option>
+                                            <option value="5" id="OPTION_28">
+                                                May
+                                            </option>
+                                            <option value="6" id="OPTION_29">
+                                                Jun
+                                            </option>
+                                            <option value="7" id="OPTION_30">
+                                                Jul
+                                            </option>
+                                            <option value="8" id="OPTION_31">
+                                                Aug
+                                            </option>
+                                            <option value="9" id="OPTION_32">
+                                                Sep
+                                            </option>
+                                            <option value="10" id="OPTION_33">
+                                                Oct
+                                            </option>
+                                            <option value="11" id="OPTION_34">
+                                                Nov
+                                            </option>
+                                            <option value="12" id="OPTION_35">
+                                                Dec
+                                            </option>
+                                        </select>
+                                        <select name="day_from" id="SELECT_36">
 
-                                        <option value="1" id="OPTION_37">
-                                            1
-                                        </option>
-                                        <option value="2" id="OPTION_38">
-                                            2
-                                        </option>
-                                        <option value="3" id="OPTION_39">
-                                            3
-                                        </option>
-                                        <option value="4" id="OPTION_40">
-                                            4
-                                        </option>
-                                        <option value="5" id="OPTION_41">
-                                            5
-                                        </option>
-                                        <option value="6" id="OPTION_42">
-                                            6
-                                        </option>
-                                        <option value="7" id="OPTION_43">
-                                            7
-                                        </option>
-                                        <option value="8" id="OPTION_44">
-                                            8
-                                        </option>
-                                        <option value="9" id="OPTION_45">
-                                            9
-                                        </option>
-                                        <option value="10" id="OPTION_46">
-                                            10
-                                        </option>
-                                        <option value="11" id="OPTION_47">
-                                            11
-                                        </option>
-                                        <option value="12" id="OPTION_48">
-                                            12
-                                        </option>
-                                        <option value="13" id="OPTION_49">
-                                            13
-                                        </option>
-                                        <option value="14" id="OPTION_50">
-                                            14
-                                        </option>
-                                        <option value="15" id="OPTION_51">
-                                            15
-                                        </option>
-                                        <option value="16" id="OPTION_52">
-                                            16
-                                        </option>
-                                        <option value="17" id="OPTION_53">
-                                            17
-                                        </option>
-                                        <option value="18" id="OPTION_54">
-                                            18
-                                        </option>
-                                        <option value="19" id="OPTION_55">
-                                            19
-                                        </option>
-                                        <option value="20" id="OPTION_56">
-                                            20
-                                        </option>
-                                        <option value="21" id="OPTION_57">
-                                            21
-                                        </option>
-                                        <option value="22" id="OPTION_58">
-                                            22
-                                        </option>
-                                        <option value="23" id="OPTION_59">
-                                            23
-                                        </option>
-                                        <option value="24" id="OPTION_60">
-                                            24
-                                        </option>
-                                        <option value="25" id="OPTION_61">
-                                            25
-                                        </option>
-                                        <option value="26" id="OPTION_62">
-                                            26
-                                        </option>
-                                        <option value="27" id="OPTION_63">
-                                            27
-                                        </option>
-                                        <option value="28" id="OPTION_64">
-                                            28
-                                        </option>
-                                        <option value="29" id="OPTION_65">
-                                            29
-                                        </option>
-                                        <option value="30" id="OPTION_66">
-                                            30
-                                        </option>
-                                        <option value="31" id="OPTION_67">
-                                            31
-                                        </option>
-                                    </select>
-                                    <select name="year_from" id="SELECT_68">
+                                            <option value="1" id="OPTION_37">
+                                                1
+                                            </option>
+                                            <option value="2" id="OPTION_38">
+                                                2
+                                            </option>
+                                            <option value="3" id="OPTION_39">
+                                                3
+                                            </option>
+                                            <option value="4" id="OPTION_40">
+                                                4
+                                            </option>
+                                            <option value="5" id="OPTION_41">
+                                                5
+                                            </option>
+                                            <option value="6" id="OPTION_42">
+                                                6
+                                            </option>
+                                            <option value="7" id="OPTION_43">
+                                                7
+                                            </option>
+                                            <option value="8" id="OPTION_44">
+                                                8
+                                            </option>
+                                            <option value="9" id="OPTION_45">
+                                                9
+                                            </option>
+                                            <option value="10" id="OPTION_46">
+                                                10
+                                            </option>
+                                            <option value="11" id="OPTION_47">
+                                                11
+                                            </option>
+                                            <option value="12" id="OPTION_48">
+                                                12
+                                            </option>
+                                            <option value="13" id="OPTION_49">
+                                                13
+                                            </option>
+                                            <option value="14" id="OPTION_50">
+                                                14
+                                            </option>
+                                            <option value="15" id="OPTION_51">
+                                                15
+                                            </option>
+                                            <option value="16" id="OPTION_52">
+                                                16
+                                            </option>
+                                            <option value="17" id="OPTION_53">
+                                                17
+                                            </option>
+                                            <option value="18" id="OPTION_54">
+                                                18
+                                            </option>
+                                            <option value="19" id="OPTION_55">
+                                                19
+                                            </option>
+                                            <option value="20" id="OPTION_56">
+                                                20
+                                            </option>
+                                            <option value="21" id="OPTION_57">
+                                                21
+                                            </option>
+                                            <option value="22" id="OPTION_58">
+                                                22
+                                            </option>
+                                            <option value="23" id="OPTION_59">
+                                                23
+                                            </option>
+                                            <option value="24" id="OPTION_60">
+                                                24
+                                            </option>
+                                            <option value="25" id="OPTION_61">
+                                                25
+                                            </option>
+                                            <option value="26" id="OPTION_62">
+                                                26
+                                            </option>
+                                            <option value="27" id="OPTION_63">
+                                                27
+                                            </option>
+                                            <option value="28" id="OPTION_64">
+                                                28
+                                            </option>
+                                            <option value="29" id="OPTION_65">
+                                                29
+                                            </option>
+                                            <option value="30" id="OPTION_66">
+                                                30
+                                            </option>
+                                            <option value="31" id="OPTION_67">
+                                                31
+                                            </option>
+                                        </select>
+                                        <select name="year_from" id="SELECT_68">
 
-                                        <option value="2017" id="OPTION_69">
-                                            2017
-                                        </option>
-                                    </select>
+                                            <option value="2017" id="OPTION_69">
+                                                2017
+                                            </option>
+                                        </select>
                                     </div>
                                     <div style="margin: 0px 313px 0px 0px;">
                                         <span id="SPAN_71">To:</span>
@@ -322,8 +322,8 @@
                         </table>
                     </div>
                 </form>
-
-                <div  style="overflow:  hidden;">
+                <div  style="overflow:  hidden;
+    margin-left: -15px;">
                     <table class="table">
                         <thead class="thead-inverse">
                         <tr>
@@ -334,26 +334,29 @@
                         </tr>
                         </thead>
                         <tbody>
-                        @if(count(Auth::user()->withdrawals))
-                            @foreach(Auth::user()->withdrawals as $withdraw)
-                                    <tr>
-                                        <th scope="row">{{$withdraw->id}}</th>
-                                        <td>{{$withdraw->withdraw_type}}</td>
-                                        <td>{{$withdraw->amount}}&nbsp;USD</td>
-                                        <td>{{$withdraw->created_at->toFormattedDateString()}}</td>
+                        @if(count(Auth::user()->deposits))
+                        @foreach(Auth::user()->deposits as $deposit)
+                            @if($deposit->deposit_status==0)
+                        <tr>
+                            <th scope="row">{{$deposit->id}}</th>
+                            <td>{{$deposit->deposit_type}}</td>
+                            <td>{{$deposit->amount}}&nbsp;USD</td>
+                            <td>{{$deposit->created_at->toFormattedDateString()}}</td>
 
-                                    </tr>
+                        </tr>
 
 
-
-                            @endforeach
-                        @else <th scope="row"> No transactions founded</th>
-                        @endif
+                            @endif
+                        @endforeach
+                            @else <th scope="row"> No transactions founded</th>
+                            @endif
                         </tbody>
                     </table>
+                </div>
 
             </div>
         </div>
     </div>
-    </div>
+
+
     @endsection

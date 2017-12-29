@@ -34,7 +34,7 @@
                         <a href="/allhistory/#DIV_2" class="accbtnactive" id="A_23" style="padding:0px 0px 0px 10px;margin-left: 8px;">История всех операций</a>
                     </li>
                     <li id="LI_18">
-                        <a href="/YourDeposits/#DIV_4" class="accbtnactive" id="A_19"  >История депозитов</a>
+                        <a href="/HistoryOfYourDeposits/#DIV_2" class="accbtnactive" id="A_19"  >История депозитов</a>
                     </li>
                     <li id="LI_26">
                         <a href="/YourWithdraws/#DIV_2" class="accbtnactive" id="A_27" >История выплат</a>
@@ -55,13 +55,7 @@
                 <div class="user-nav">
                 <ul id="UL_31">
                     <li id="LI_32">
-                        <a href="/YourRefferals" class="accbtnactive" id="A_33" >Your Referrals</a>
-                    </li>
-                    <li id="LI_34">
-                        <a href="?a=referallinks" class="accbtnactive" id="A_35" style="color: rgb(230, 15, 15);">Promo materials</a>
-                    </li>
-                    <li id="LI_36">
-                        <a href="?a=cust&amp;page=bounty"  class="accbtnactive" id="A_37" style="color: rgb(230, 15, 15);">Bounty program</a>
+                        <a href="/YourRefferals/#DIV_2" class="accbtnactive" id="A_33" >Your Referrals</a>
                     </li>
                 </ul>
                 </div>

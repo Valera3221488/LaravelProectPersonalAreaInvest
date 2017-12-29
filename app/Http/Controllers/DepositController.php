@@ -18,6 +18,13 @@ class DepositController extends Controller
       public function show(){
 
 
-         return view('financials.YourDeposits');
+         return view('financials.YourOpenDeposits');
       }
+
+      public function history(){
+
+
+          return view('financials.HistoryOfYourDeposits');
+      }
+
 }

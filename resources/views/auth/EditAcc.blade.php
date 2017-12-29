@@ -62,6 +62,16 @@
                         <td id="TD_20">
                             {{Auth::user()->name}}
                         </td>
+
+                    </tr>
+                    <tr id="TR_18">
+                        <td id="TD_19">
+                            Номер телефона:
+                        </td>
+                        <td id="TD_20">
+                            {{Auth::user()->phone}}
+                        </td>
+
                     </tr>
                     <tr id="TR_21">
                         <td id="TD_22">

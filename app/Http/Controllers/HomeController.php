@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Withdraw;
 use Illuminate\Http\Request;
+use App\Deposit;
+use App\User;
+
 
 class HomeController extends Controller
 {
@@ -23,6 +27,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $withdrawals=Withdraw::all()->sum('amount');
+        $deposits=Deposit::all()->sum('amount');
+
+
+        return view('home',compact('withdrawals','deposits'));
     }
 }

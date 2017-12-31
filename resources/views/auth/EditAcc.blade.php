@@ -50,59 +50,38 @@
                     return true;
                 }
             </script>
-            <form action="index.php" method="post" name="editform" id="FORM_13">
+            <form method="post" action="/edit"   id="FORM_13" enctype="multipart/form-data">
+
+                                        {{ csrf_field() }}
+
                 <input type="hidden" name="a" value="edit_account" id="INPUT_14" />
                 <input type="hidden" name="action" value="edit_account" id="INPUT_15" />
                 <table id="TABLE_16">
                     <tbody id="TBODY_17">
-                    <tr id="TR_18">
-                        <td id="TD_19">
-                            Account Name:
+                    <tr id="TR_24">
+                        <td id="TD_25">
+                            Ваше имя:
                         </td>
-                        <td id="TD_20">
-                            {{Auth::user()->name}}
+                        <td id="TD_26">
+                            <input type="text" name="name" value="{{Auth::user()->name}}" id="INPUT_27" />
                         </td>
-
                     </tr>
                     <tr id="TR_18">
                         <td id="TD_19">
                             Номер телефона:
                         </td>
                         <td id="TD_20">
-                            {{Auth::user()->phone}}
+                            <input type="text" name="phone" value="{{Auth::user()->phone}}" id="INPUT_27"/>
                         </td>
+                    </tr>
 
-                    </tr>
-                    <tr id="TR_21">
-                        <td id="TD_22">
-                            Registration date:
-                        </td>
-                        <td id="TD_23">
-                            {{Auth::user()->created_at->toFormattedDateString() }}
-                        </td>
-                    </tr>
-                    <tr id="TR_24">
-                        <td id="TD_25">
-                            Your Full Name:
-                        </td>
-                        <td id="TD_26">
-                            <input type="text" name="fullname" value="{{Auth::user()->name}}" id="INPUT_27" />
-                        </td>
-                    </tr>
+
                     <tr id="TR_28">
                         <td id="TD_29">
                             New Password:
                         </td>
                         <td id="TD_30">
-                            <input type="text" name="password" id="INPUT_31"  value="NO LOGIC HERE"/>
-                        </td>
-                    </tr>
-                    <tr id="TR_32">
-                        <td id="TD_33">
-                            Retype Password:
-                        </td>
-                        <td id="TD_34">
-                            <input type="text" name="password2" id="INPUT_35" value="NO LOGIC HERE" />
+                            <input type="text" name="password" id="INPUT_31"  value=""/>
                         </td>
                     </tr>
                     <tr id="TR_36">
@@ -110,31 +89,23 @@
                             Your PerfectMoney :
                         </td>
                         <td id="TD_38">
-                            <input type="text" name="pay_account[18]" id="INPUT_39" value="NO LOGIC HERE"/>
-                        </td>
-                    </tr>
-                    <tr id="TR_40">
-                        <td id="TD_41">
-                            Your Payeer :
-                        </td>
-                        <td id="TD_42">
-                            <input type="text" name="pay_account[43]" id="INPUT_43"  value="NO LOGIC HERE"/>
+                            <input type="text" name="PerfectMoneyAcc" id="INPUT_39" value="{{Auth::user()->PerfectMoneyAcc}}"/>
                         </td>
                     </tr>
                     <tr id="TR_44">
                         <td id="TD_45">
-                            Your AdvCash :
+                            Your WebMoney :
                         </td>
                         <td id="TD_46">
-                            <input type="text" name="pay_account[56]" id="INPUT_47" value="NO LOGIC HERE"/>
+                            <input type="text" name="WebMoneyAcc" id="INPUT_47" value="{{Auth::user()->WebMoneyAcc}}"/>
                         </td>
                     </tr>
-                    <tr id="TR_48">
-                        <td id="TD_49">
-                            Your Bitcoin :
+                    <tr id="TR_36">
+                        <td id="TD_37">
+                            Your AdvCash :
                         </td>
-                        <td id="TD_50">
-                            <input type="text" name="pay_account[48]" id="INPUT_51" value="NO LOGIC HERE" />
+                        <td id="TD_38">
+                            <input type="text" name="AdvCashAcc" id="INPUT_39" value="{{Auth::user()->AdvCashAcc}}"/>
                         </td>
                     </tr>
                     <tr id="TR_52">
@@ -145,11 +116,19 @@
                             {{Auth::user()->email}}
                         </td>
                     </tr>
+                    <tr id="TR_21">
+                        <td id="TD_22">
+                            Registration date:
+                        </td>
+                        <td id="TD_23">
+                            {{Auth::user()->created_at->toFormattedDateString() }}
+                        </td>
+                    </tr>
                     <tr id="TR_55">
                         <td id="TD_56">
                         </td>
                         <td id="TD_57">
-                            <input type="submit" value="Save changes" id="INPUT_58" />
+                            <button type="submit" id="INPUT_58">Save changes</button>
                         </td>
                     </tr>
                     </tbody>

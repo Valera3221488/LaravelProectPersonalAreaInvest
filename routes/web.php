@@ -22,6 +22,7 @@
     Route::get('/deposit','DepositController@index');
 
     Route::get('/edit','EditAccountController@index');
+    Route::post('/edit','EditAccountController@update');
 
 
 

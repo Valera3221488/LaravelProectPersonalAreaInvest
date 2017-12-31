@@ -60,7 +60,7 @@
                             Снято Всего:
                         </td>
                         <td id="TD_11">
-                            
+                            {{$withdrawals}}&nbsp; USD
                         </td>
                     </tr>
                     <tr id="TR_12">
@@ -68,7 +68,7 @@
                             Active Deposit:
                         </td>
                         <td id="TD_14">
-                            USD 0
+                           {{$deposits}}&nbsp; USD
                         </td>
                     </tr>
                     </tbody>

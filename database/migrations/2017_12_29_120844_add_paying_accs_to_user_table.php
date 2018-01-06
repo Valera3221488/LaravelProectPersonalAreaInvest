@@ -14,9 +14,9 @@ class AddPayingAccsToUserTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('WebMoneyAcc')->unique();
-            $table->string('AdvCashAcc')->unique();
-            $table->string('PerfectMoneyAcc')->unique();
+            $table->string('WebMoneyAcc')->unique()->nullable();
+            $table->string('AdvCashAcc')->unique()->nullable();
+            $table->string('PerfectMoneyAcc')->unique()->nullable();
         });
     }
 

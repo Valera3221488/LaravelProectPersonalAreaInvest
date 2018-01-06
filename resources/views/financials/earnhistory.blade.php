@@ -361,7 +361,7 @@
 
                     @endif
                 @endforeach
-            @else <th scope="row"> No transactions founded</th>
+            @else <th scope="row"> No deposits founded</th>
             @endif
             </tbody>
             <tbody>
@@ -378,7 +378,7 @@
 
 
                 @endforeach
-            @else <th scope="row"> No transactions founded</th>
+            @else <th scope="row"> No withdrawals founded</th>
             @endif
             </tbody>
         </table>

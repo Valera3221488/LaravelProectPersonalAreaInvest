@@ -27,6 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+
         $withdrawals=Withdraw::all()->sum('amount');
         $deposits=Deposit::all()->sum('amount');
 

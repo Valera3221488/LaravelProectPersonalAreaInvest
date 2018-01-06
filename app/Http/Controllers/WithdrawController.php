@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
 
 class WithdrawController extends Controller
 {
@@ -13,7 +14,9 @@ class WithdrawController extends Controller
 
     public function index(){
 
-        return view('financials.withdraw');
+        $user= new User;
+
+        return view('financials.withdraw',compact('user'));
     }
     public function show(){
 

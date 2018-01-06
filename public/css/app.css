@@ -638,7 +638,7 @@
     max-height: 999999px;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
-    width: 162.844px;
+    width: 227.844px;
     column-rule-color: rgb(51, 51, 51);
     perspective-origin: 81.4219px 24px;
     transform-origin: 81.4219px 24px;
@@ -807,6 +807,23 @@
 }
 #TR_6:hover,#TR_9:hover,#TR_12:hover,#TR_3:hover{
     background: #cdd9e6;
+}
+.scrollToTop{
+    width:130px;
+    height:133px;
+    padding:10px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:75px;
+    left:-7px;
+    display:none;
+    background: url('/images/arrow_up.png');
+
+}
+.scrollToTop:hover{
+    text-decoration:none;
 }
 
 

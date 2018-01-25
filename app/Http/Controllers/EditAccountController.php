@@ -27,9 +27,9 @@ class EditAccountController extends Controller
      public function update(Request $request)
      {
          Validator::make(request()->all(),[
+             'token'=>'required',
              'name'=>'required|string|max:255',
              'phone'=>'required|regex:/[0-9][0-9]{9}/',
-             'password'=>'confirmed',
              'PerfectMoneyAcc'=>'string|email|max:255|unique:users',
              'WebMoneyAcc'=>'string|email|max:255|unique:users',
              'AdvCashAcc'=>'string|email|max:255|unique:users',
@@ -40,10 +40,10 @@ class EditAccountController extends Controller
          $user=User::find(request()->id);
          $user->name=$request->input('name');
          $user->phone=$request->input('phone');
-         if ( ! $request->input('password') == '')
+        /* if ( ! $request->input('password') == '')
          {
              $user->password = bcrypt($request->input('password'));
-         }
+         }*/
          $user->PerfectMoneyAcc=$request->input('PerfectMoneyAcc');
          $user->WebMoneyAcc=$request->input('WebMoneyAcc');
          $user->AdvCashAcc=$request->input('AdvCashAcc');

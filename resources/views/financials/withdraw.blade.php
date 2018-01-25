@@ -15,12 +15,12 @@
                 <div id="DIV_4">
                     <i id="I_5"></i> Withdraw
                 </div>
-                <div id="DIV_6">
+                <div id="DIV_6" style="width: 231.844px;">
                     Welcome, <span id="SPAN_7">{{Auth::user()->name}}</span>!
                 </div>
             </div>
             <div class="container">
-                <form method="post" style="    margin-top: 30px;">
+                <form  style="    margin-top: 30px;">
                     <input type="hidden" name="a" value="withdraw">
                     <input type="hidden" name="action" value="preview">
 
@@ -61,7 +61,7 @@
                             <input type="hidden" id="ec" name="ec" value="48" class="cell inpts ps-insert" size="15">
                             <div class="choose-method-inpts">
                                 <div class="withdraw-method-input" data-payment="48">
-                                    <input id="amount-btc" type="text" name="amount-btc" value="0.01" class="withdraw-input" size="15">
+                                    <input id="amount-btc" type="text" name="amount-btc" value="0.01" class="withdraw-input" size="15" style="width:91%;">
                                     <input id="amount" type="hidden" name="amount" value="40" class="" size="15">
                                     <input id="exchange" type="hidden" disabled="" value="4000">
                                 </div>
@@ -78,7 +78,7 @@
             <span id="P_29">
                 <img src="/images/icon-warning.png" id="IMG_30" alt='ups'/> Your PerfectMoney Account:<a href="/edit/#DIV_2">You havent set up this email yet</a> <span id="SPAN_31"><a href="/edit" id="A_32"></a></span></span>
             @else<span id="P_29">
-                <img src="" id="IMG_30" alt='ups'/> Your PerfectMoney Account:{{Auth::user()->PerfectMoneyAcc}} </span>
+                <img src="/images/galo4ka.jpg" id="IMG_30" alt='ups'/> Your PerfectMoney Account:<span id="SPAN_31">{{Auth::user()->PerfectMoneyAcc}} </span></span>
             @endif
                     <br><hr>
 

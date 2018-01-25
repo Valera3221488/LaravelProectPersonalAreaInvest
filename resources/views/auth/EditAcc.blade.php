@@ -22,7 +22,9 @@
             <form method="post" action="/edit"   id="FORM_13" enctype="multipart/form-data">
 
                                             {{ csrf_field() }}
+                @if(Auth::check())
                 <input type="hidden" name="id" value="{{Auth::user()->id}}"/>
+                @endif
                 <table id="TABLE_16">
                     <tbody id="TBODY_17">
                     <tr id="TR_24">
@@ -42,23 +44,6 @@
                         </td>
                     </tr>
 
-
-                    <tr id="TR_28">
-                        <td id="TD_29">
-                            New Password:
-                        </td>
-                        <td id="TD_30">
-                            <input type="text" name="password" id="INPUT_31"  value=""/>
-                        </td>
-                    </tr>
-                    <tr id="TR_28">
-                        <td id="TD_29">
-                            Confirm Password:
-                        </td>
-                        <td id="TD_30">
-                            <input type="text" name="password" id="INPUT_31"  value=""/>
-                        </td>
-                    </tr>
                     <tr id="TR_36">
                         <td id="TD_37">
                             Your PerfectMoney :
@@ -103,7 +88,19 @@
                 </table>
                 <button type="submit" id="INPUT_58">Save changes</button>
             </form>
-
+        </div>
+        <div class="container" id="PasswordChangingZone" style="
+    display:inline-block;
+    width:454px;
+    height:451px;
+    background-color:#FAEBD7;
+     ">
+            <form  class="" method="post" action="/edit" enctype="multipart/form-data">
+                <button type="submit" class="btn btn-primary" style="margin: 0px 0px -55px 24px;">Change Password</button>
+            </form>
+            <form  class="" method="post" action="/edit" enctype="multipart/form-data">
+                <button type="submit" class="btn btn-primary" style="margin: 0px 0px 821px 273px">Reset Password</button>
+            </form>
         </div>
     </div>
 </div>

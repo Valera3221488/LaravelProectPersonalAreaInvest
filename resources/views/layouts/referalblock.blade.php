@@ -17,8 +17,8 @@
             </div>
         </div><br>
         <div  class="container" style="margin-left: 6px;margin-bottom: 25px;">
-        <a href="/deposit" id="A_1">Пополнить</a>
-        <a href="/withdraw" id="A_2">Вывести</a>
+        <a href="/deposit/#DIV_2" id="A_1">Пополнить</a>
+        <a href="/withdraw/#DIV_3" id="A_2">Вывести</a>
         </div>
     </div>
 </div>

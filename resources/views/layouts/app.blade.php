@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Invest</title>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
       {{--CDN--}}
@@ -87,7 +87,7 @@
                     $('.scrollToTop').fadeOut();
                 }
             });
-
+            $('.scrollToTop').fadeIn();
             //Click event to scroll to top
             $('.scrollToTop').click(function(){
                 $('html, body').animate({scrollTop : 0},800);
